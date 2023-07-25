@@ -1,5 +1,9 @@
 body{
-    background-color: blue
+    text-align: right;
+    background-color: blue;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 div {
     height: 60px;
@@ -8,6 +12,7 @@ div {
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
+   
 }
 div:hover {
     height: 60px;
@@ -16,6 +21,7 @@ div:hover {
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
+    box-shadow: 30px 20px 10px purple;
 }
 
 #teclapreta1 {
@@ -25,8 +31,10 @@ div:hover {
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
+    border-color: black;
     position: absolute;
     margin-top: 40px;
+    color: white;
 }
 #teclapreta1:hover {
     height: 40px;
@@ -37,6 +45,7 @@ div:hover {
     position: absolute;
     margin-top: 40px;
     background-color: brown;
+    box-shadow: 30px 20px 10px brown;
 }
 
 #teclapreta2 {
@@ -47,7 +56,9 @@ div:hover {
     border-width: 1px;
     border-style: solid;
     position: absolute;
+    border-color: black;
     margin-top: 100px;
+    color: white;
 }
 #teclapreta2:hover {
     height: 40px;
@@ -58,4 +69,6 @@ div:hover {
     border-style: solid;
     position: absolute;
     margin-top: 100px;
+    box-shadow: 30px 20px 10px brown;
 }
+
