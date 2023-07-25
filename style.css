@@ -8,7 +8,14 @@ div {
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
-    
+}
+div:hover {
+    height: 60px;
+    width: 500px;
+    background-color: purple;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
 }
 
 #teclapreta1 {
@@ -21,11 +28,31 @@ div {
     position: absolute;
     margin-top: 40px;
 }
+#teclapreta1:hover {
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 40px;
+    background-color: brown;
+}
 
 #teclapreta2 {
     height: 40px;
     width: 250px;
     background-color: black;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 100px;
+}
+#teclapreta2:hover {
+    height: 40px;
+    width: 250px;
+    background-color: brown;
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
