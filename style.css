@@ -12,6 +12,8 @@ div {
     border-radius: 7px;
     border-width: 1px;
     border-style: solid;
+    border-color: black;
+    color: white;
    
 }
 div:hover {
@@ -22,6 +24,7 @@ div:hover {
     border-width: 1px;
     border-style: solid;
     box-shadow: 30px 20px 10px purple;
+    color: black;
 }
 
 #teclapreta1 {
@@ -34,7 +37,7 @@ div:hover {
     border-color: black;
     position: absolute;
     margin-top: 40px;
-    color: white;
+    color: black;
 }
 #teclapreta1:hover {
     height: 40px;
@@ -46,6 +49,7 @@ div:hover {
     margin-top: 40px;
     background-color: brown;
     box-shadow: 30px 20px 10px brown;
+    color: white;
 }
 
 #teclapreta2 {
@@ -58,7 +62,7 @@ div:hover {
     position: absolute;
     border-color: black;
     margin-top: 100px;
-    color: white;
+    color: black;
 }
 #teclapreta2:hover {
     height: 40px;
@@ -70,5 +74,6 @@ div:hover {
     position: absolute;
     margin-top: 100px;
     box-shadow: 30px 20px 10px brown;
+    color: white;
 }
 
